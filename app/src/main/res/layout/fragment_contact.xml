@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".ContactUs"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Full Name"
+                android:textSize="18sp"/>
+            <androidx.legacy.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp"/>
+            <EditText
+                android:id="@+id/ET_teacher_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="Mahmoud tarek mohamed"
+                android:textSize="18sp"/>
+            <androidx.legacy.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E-mail"
+                android:textSize="18sp"/>
+            <androidx.legacy.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp"/>
+            <EditText
+                android:id="@+id/ET_teacher_mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="tmahmoud974@gmail.com"
+                android:textSize="18sp"/>
+
+            <androidx.legacy.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Message"
+                android:textSize="18sp"/>
+            <androidx.legacy.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp"/>
+
+            <EditText
+                android:id="@+id/ET_teacher_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:ems="10"
+                android:lines="10"
+                android:enabled="true"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:textSize="18sp"
+                tools:hint="describe your problem here" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+                <Button
+                    android:id="@+id/BT_submit"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4.7"
+                    android:textSize="24sp"
+                    android:text="SUBMIT"
+                    android:background="@drawable/solid_rounded_shap"
+                    android:clickable="true"/>
+                <ImageButton
+                    android:id="@+id/Bt_call"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/phone"
+                    android:clickable="true"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

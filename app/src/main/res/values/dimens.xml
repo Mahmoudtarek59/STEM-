@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- Height of each list item -->
+  <dimen name="list_item_height">88dp</dimen>
+  <dimen name="Tacher_list_item_height">180dp</dimen>
+  <dimen name="list_image_sound">35dp</dimen>
+  <dimen name="textPadding">10dp</dimen>
+  <!-- Default screen margins, per the Android Design guidelines. -->
+
+</resources>

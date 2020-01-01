@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:background="@color/teacher_card_color"
+    android:layout_gravity="center">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/className"
+            android:paddingLeft="20dp"
+            android:text="Class Name"
+            android:textStyle="bold"
+            android:textColor="@color/white_background"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <TextView
+            android:id="@+id/closePopUpMenu"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:background="@android:drawable/ic_menu_close_clear_cancel" />
+
+    </GridLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cardview_dark_background"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tableList"/>
+
+
+</LinearLayout>

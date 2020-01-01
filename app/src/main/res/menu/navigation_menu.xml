@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/classes">
+
+
+
+        <item
+            android:id="@+id/class1"
+            android:title="@string/ClassOne"
+            android:visible="false"
+            android:enabled="true"/>
+        <item
+            android:id="@+id/class2"
+            android:title="@string/ClassTwo"
+            android:visible="false"
+            android:enabled="true"/>
+        <item
+            android:id="@+id/class3"
+            android:title="@string/ClassThree"
+            android:visible="false"
+            android:enabled="true"/>
+        <item
+            android:id="@+id/class4"
+            android:title="@string/ClassFour"
+            android:visible="false"
+            android:enabled="true"/>
+        <item
+            android:id="@+id/class5"
+            android:title="@string/ClassFive"
+            android:visible="false"
+            android:enabled="true"/>
+        <item
+            android:id="@+id/class6"
+            android:title="@string/ClassSix"
+            android:visible="false"
+            android:enabled="true"/>
+
+
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_grade"
+                    android:title="@string/grade"
+                    android:visible="true" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Teachers">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/teachers"
+                    android:title="Teachers"
+                    android:visible="false" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Other">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_setting"
+                    android:title="@string/setting"
+                    android:icon="@drawable/settings"
+                    android:visible="false" />
+                <item
+                    android:id="@+id/nav_contact"
+                    android:title="@string/contact"
+                    android:icon="@drawable/contacts"
+                    android:visible="true" />
+                <item
+                    android:id="@+id/nav_signout"
+                    android:title="@string/sign_out"
+                    android:icon="@drawable/logout"
+                    android:visible="true" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

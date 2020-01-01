@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentEditor"
+    android:background="@color/teacher_card_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ET_Student_Editor_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:hint="Full Name"
+            android:inputType="text"
+            tools:text="Full Name"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white_background"
+            android:textColorHint="@color/white_background" />
+
+        <EditText
+            android:id="@+id/ET_Student_Editor_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:hint="E-Mail"
+            android:inputType="textEmailAddress"
+            tools:text="E-Mail"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white_background"
+            android:textColorHint="@color/white_background"/>
+
+        <EditText
+            android:id="@+id/ET_Student_Editor_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:hint="Phone Number"
+            android:inputType="number"
+            tools:text="Phone"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white_background"
+            android:textColorHint="@color/white_background"/>
+        <EditText
+            android:id="@+id/ET_Student_Editor_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:hint="ID"
+            android:inputType="text"
+            tools:text="ID"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white_background"
+            android:textColorHint="@color/white_background"/>
+        <EditText
+            android:id="@+id/ET_Student_NM_Absent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:hint="Num OF Absent"
+            android:inputType="number"
+            tools:text="Num OF Absent"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white_background"
+            android:textColorHint="@color/white_background"/>
+
+
+        <Button
+            android:id="@+id/student_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/solid_rounded_shap"
+            android:layout_margin="20dp"
+            android:text="Submit" />
+
+    </LinearLayout>
+</ScrollView>

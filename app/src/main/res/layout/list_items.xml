@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:orientation="horizontal"
+    android:background="@color/tan_background"
+    android:descendantFocusability="blocksDescendants">
+
+    <View
+        android:id="@+id/imageAbsentNumber"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height" />
+    <TextView
+        android:id="@+id/num_absent"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        tools:text="2"
+        android:textSize="48sp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="4dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/imageAbsentNumber"
+        android:background="@drawable/teacher_card">
+
+        <TextView
+            android:id="@+id/stuname"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:paddingRight="10dp"
+            android:text="student name."
+            android:textStyle="bold"
+            android:gravity="bottom"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000" />
+        <TextView
+            android:id="@+id/stuemail"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:paddingRight="10dp"
+            android:text="student email."
+            android:inputType="textEmailAddress"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+    <CheckBox
+        android:id="@+id/checkbox_mark"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground"/>
+</RelativeLayout>

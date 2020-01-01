@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#68c8d6</color>
+    <color name="colorPrimaryDark">#2f96a5</color>
+    <color name="colorAccent">#000000</color>
+    <color name="white_background">#ffffff</color>
+    <!-- Background color for app -->
+    <color name="tan_background">#e0ffff</color>
+    <color name="teacher_card_color">#a04f54</color>
+
+</resources>

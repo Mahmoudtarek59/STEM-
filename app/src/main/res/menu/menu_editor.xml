@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Class">
+
+
+    <item
+        android:id="@+id/send_email"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="Send Email"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/class_table"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="class table"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/edit_menu_save"
+        android:icon="@drawable/ic_done"
+        android:title="Save Absence"
+        app:showAsAction="never" />
+
+
+</menu>

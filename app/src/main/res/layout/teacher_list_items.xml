@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Tacher_list_item_height"
+        android:orientation="vertical"
+        android:paddingLeft="4dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/teacher_card">
+
+        <TextView
+            android:id="@+id/teacherName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:paddingRight="15dp"
+            android:text="Teacher name."
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#000" />
+        <TextView
+            android:id="@+id/teacherEmail"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:text="Teacher email."
+            android:inputType="textEmailAddress"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#fff" />
+        <TextView
+            android:id="@+id/teacherPhone"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:text="Teacher Phone."
+            android:inputType="phone"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#fff" />
+        <TextView
+            android:id="@+id/teacherUserName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:text="Teacher Phone."
+            android:inputType="text"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#fff" />
+        <TextView
+            android:id="@+id/teacherPassword"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:text="Teacher Phone."
+            android:inputType="text"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#fff" />
+
+    </LinearLayout>

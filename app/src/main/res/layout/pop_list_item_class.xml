@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:background="@color/teacher_card_color"
+    android:layout_gravity="center">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/closeStuPopUpMenu"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:background="@android:drawable/ic_menu_close_clear_cancel" />
+    </GridLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cardview_dark_background"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/informationStudintName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:paddingRight="15dp"
+            android:text="student name."
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceLargeInverse"
+            android:textColor="#fff" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/informationStudentGrade"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="25dp"
+                android:text="Grade."
+                android:inputType="textEmailAddress"
+                android:gravity="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#fff" />
+            <TextView
+                android:id="@+id/informationStudentClass"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="25dp"
+                android:text="Class."
+                android:inputType="textEmailAddress"
+                android:gravity="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#fff" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/informationStudentEmail"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="25dp"
+            android:text="E-Mail."
+            android:inputType="textEmailAddress"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#fff" />
+        <TextView
+            android:id="@+id/informationStudentPhone"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="25dp"
+            android:text="Phone."
+            android:inputType="textEmailAddress"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#fff" />
+        <TextView
+            android:id="@+id/informationStudentID"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="25dp"
+            android:text="ID."
+            android:inputType="textEmailAddress"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#fff" />
+        <TextView
+            android:id="@+id/informationStudentNumOfAbsence"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="25dp"
+            android:text="Absence."
+            android:inputType="textEmailAddress"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:id="@+id/informationStudentDelete"
+        android:text="Delete"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white_background"
+        android:background="@drawable/buttonstyle"/>
+
+
+
+</LinearLayout>
